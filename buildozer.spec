@@ -1,4 +1,5 @@
 [app]
+android.accept_sdk_license = True
 title = Suno Indirici
 package.name = sunoindirici
 package.domain = org.example
