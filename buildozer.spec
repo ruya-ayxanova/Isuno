@@ -1,6 +1,4 @@
 [app]
-android.ndk = 25b
-android.accept_sdk_license = True
 title = Suno Indirici
 package.name = sunoindirici
 package.domain = org.example
@@ -13,6 +11,8 @@ android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE
 android.api = 33
 android.minapi = 21
 android.archs = arm64-v8a
+android.accept_sdk_license = True
+p4a.branch = develop
 
 [buildozer]
 log_level = 2
