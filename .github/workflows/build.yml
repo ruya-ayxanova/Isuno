@@ -2,8 +2,7 @@ name: APK
 on: [push, workflow_dispatch]
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
+   runs-on: ubuntu-22.04
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
