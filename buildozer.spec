@@ -1,4 +1,5 @@
 [app]
+android.ndk = 25b
 android.accept_sdk_license = True
 title = Suno Indirici
 package.name = sunoindirici
